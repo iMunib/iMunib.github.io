@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheer Up, Mina!</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            background-color: #ffc0cb; /* Pink background */
+            padding: 20px;
+            overflow: hidden; /* Prevent scrollbars */
+        }
+        #header {
+            background-color: #ff69b4; /* Hot Pink header */
+            color: white;
+            padding: 15px;
+        }
+        #content {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            animation: bounce 1s infinite alternate; /* Bouncing animation */
+        }
+        .meme {
+            margin: 10px;
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+            animation: rotate 2s linear infinite; /* Rotating animation */
+        }
+        #footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #ff69b4; /* Hot Pink footer */
+            color: white;
+            padding: 10px;
+        }
+
+        /* Custom animations */
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes bounce {
+            from {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <h1>Sending some love for Mina! (Prime delivery)</h1>
+    </div>
+
+    <div id="content">
+        <img class="meme" src="https://media1.giphy.com/media/1JmGiBtqTuehfYxuy9/200w.gif?cid=6c09b952g9za2dvavui6i4wu65l5r8h2wh2paslbqdamd4z3&ep=v1_gifs_search&rid=200w.gif&ct=g" alt="Pink Cat Meme 2">
+        <img class="meme" src="https://media2.giphy.com/media/f9EmXxglhdhAj1bo28/200w.gif?cid=6c09b952g9za2dvavui6i4wu65l5r8h2wh2paslbqdamd4z3&ep=v1_gifs_search&rid=200w.gif&ct=g">
+        <img class="meme" src="https://i.pinimg.com/originals/3c/e8/84/3ce884bb29ad1909a2c253354497420f.gif" alt="Pink Cat Meme 3">
+    </div>
+    <div>
+        <h2>Wishing you all the best in life, and may all your dreams come true!</h2>
+    </div>
+
+
+    <div id="footer">
+        <p>Created with ❤️ by your imunib</p>
+    </div>
+
+</body>
+</html>
